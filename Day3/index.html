@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document for testing input and Output</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <h1 id = "hiText">The is the first web page</h1>
+  <p id = "demo"></p>
+  <!-- <input id = "myButton" type="button" value="Display Hello" onclick="alert('Hi there');"/>  -->
+  <input type="text" id = "someInput" value= "Text input stays here"/> 
+  <input type="button" id = "myButton" value="Display Hello"/> 
+  <hr>
+  <h2>Coordinate Calculator</h2>
+  WKTPoint1 <input type="text" id = "wktPoint1", placeholder="POINT(x y) "><br>
+  WKTPoint2 <input type="text" id = "wktPoint2", placeholder="POINT(x y)"><br><br>
+  Distance: <button id = "distanceButton"> Get the distance</button>
+    
+  <script src = "inputOutput.js"> </script>
+  <script src = "distanceCal.js"> </script>
+  <hr>
+  <br>
+  <p> Rounded Distance: <span id="distanceDisplay"></span></p>
+</body>
+</html>

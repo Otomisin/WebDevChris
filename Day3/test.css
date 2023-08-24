@@ -1,0 +1,38 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+p#demo {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+input[type="button"] {
+    background-color: #0033A0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
