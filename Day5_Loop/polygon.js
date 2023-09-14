@@ -43,3 +43,9 @@ for (let i = 0; i < finalpolygon.length - 1; i++){ // Adjust loop range to avoid
 }
 
 console.log(perimeter);
+
+// let whileIndex = 0;
+// while (whileIndex < finalpolygon.length - 1){
+//   console.log(finalpolygon[whileIndex]);
+//   ++whileIndex
+// }
